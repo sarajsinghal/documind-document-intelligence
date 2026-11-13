@@ -1,12 +1,12 @@
 # AI Document Intelligence & Data Extraction Agent
 
-A local-first, portfolio-grade Streamlit MVP for extracting structured suggestions from PDFs and images, reviewing them with a person, and maintaining a SQLite activity history. Deterministic extraction works without network access or an LLM.
+A local-first Streamlit application for extracting structured suggestions from PDFs and images, supporting human review, and recording activity in SQLite. Deterministic extraction works without network access or a language model.
 
 **Live app:** https://documind-document-intelligence.streamlit.app/
 
-## Portfolio fit
+## Scope
 
-The adjacent Codex portfolio includes AI evaluation/security and governance applications, plus career and placement tools. Project 9 complements those by adding document ingestion, OCR, information extraction, human review, and structured exports. This project has its own code, database, and dependencies.
+The application combines document ingestion, OCR, information extraction, human review, and structured exports. It is maintained as a standalone project.
 
 ## Features
 
