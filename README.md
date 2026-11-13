@@ -2,6 +2,8 @@
 
 A local-first, portfolio-grade Streamlit MVP for extracting structured suggestions from PDFs and images, reviewing them with a person, and maintaining a SQLite activity history. Deterministic extraction works without network access or an LLM.
 
+**Live app:** https://documind-document-intelligence.streamlit.app/
+
 ## Portfolio fit
 
 The adjacent Codex portfolio includes AI evaluation/security and governance applications, plus career and placement tools. Project 9 complements those by adding document ingestion, OCR, information extraction, human review, and structured exports. This project has its own code, database, and dependencies.
@@ -113,7 +115,7 @@ git add app.py document_agent .streamlit/config.toml requirements.txt packages.t
 git status --short
 git commit -m "Build DocuMind document intelligence lab"
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/documind-document-intelligence.git
+git remote add origin https://github.com/sarajsinghal/documind-document-intelligence.git
 git push -u origin main
 ```
 
